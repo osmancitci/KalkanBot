@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Science Gear",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^2.0.0",
+    "@discordjs/rest": "^3.1.1",
+    "@types/node": "^18.0.7",
+    "body-parser": "^1.19.1",
+    "cat-loggr": "^1.2.2",
+    "cookie-parser": "^1.4.6",
+    "discord-api-types": "^0.37.56",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.2",
+    "express-session": "^1.17.3",
+    "node-fetch": "^3.2.6",
+    "superagent": "^7.1.0",
+    "puppeteer": "^13.2.3"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
